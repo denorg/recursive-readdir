@@ -3,7 +3,7 @@
 Simply recursively read a directory in Deno.
 
 ```ts
-import { recursiveReaddir } from "./mod.ts";
+import { recursiveReaddir } from "https://raw.githubusercontent.com/denorg/recursive-readdir/master/mod.ts";
 
 const files = await recursiveReaddir("path/to/dir"); // string[]
 ```
@@ -17,7 +17,7 @@ Required permissions:
 Search for all markdown files in the `content` folder:
 
 ```ts
-import { recursiveReaddir } from "./mod.ts";
+import { recursiveReaddir } from "https://raw.githubusercontent.com/denorg/recursive-readdir/master/mod.ts";
 import { join, extname } from "https://deno.land/std/path/mod.ts";
 
 const markdownFiles = (await recursiveReaddir(join(".", "content"))).filter(

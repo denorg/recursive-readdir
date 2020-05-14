@@ -17,7 +17,5 @@ jobs:
         uses: denolib/setup-deno@master
         with:
           deno-version: 1.x
-      - name: Format
-        run: deno fmt --check
       - name: Tests
         run: deno test --allow-read

@@ -35,4 +35,4 @@ deno test --allow-read
 
 ## 📄 License
 
-MIT © Anand Chowdhary
+MIT © [Denorg](https://den.org.in)

@@ -3,5 +3,6 @@ import { recursiveReaddir } from "./mod.ts";
 
 Deno.test("test starter function", async (): Promise<void> => {
   const result = await recursiveReaddir("testfiles");
-  assertEquals(result, ["testfiles/file.txt", "testfiles/to/file.txt"]);
+  const correctResult = ["testfiles/file.txt", "testfiles/to/file.txt"];
+  assertEquals(result.sort(), correctResult.sort());
 });

@@ -2,6 +2,8 @@
 
 Simply recursively read a directory in Deno.
 
+[![Test CI](https://github.com/denorg/recursive-readdir/workflows/Test%20CI/badge.svg)](https://github.com/denorg/recursive-readdir/actions)
+
 ```ts
 import { recursiveReaddir } from "https://raw.githubusercontent.com/denorg/recursive-readdir/master/mod.ts";
 

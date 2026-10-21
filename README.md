@@ -2,6 +2,10 @@
 
 Recursively read a directory in Deno.
 
+**Deno-only:** This package is also published to npm for CDN availability, but it
+uses the `Deno` runtime APIs and does not run in Node.js. In Deno, import it
+from the URL shown below rather than using it as a Node.js package.
+
 [![Deno CI](https://github.com/denorg/recursive-readdir/workflows/Deno%20CI/badge.svg)](https://github.com/denorg/recursive-readdir/actions)
 [![GitHub](https://img.shields.io/github/license/denorg/recursive-readdir)](https://github.com/denorg/recursive-readdir/blob/master/LICENSE)
 [![Contributors](https://img.shields.io/github/contributors/denorg/recursive-readdir)](https://github.com/denorg/recursive-readdir/graphs/contributors)
